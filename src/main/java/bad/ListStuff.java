@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class ListStuff {
+  private List<String> ls;
   public static void showAll(List l) {
     l.add(0, LocalDate.now());
     for (Object o : l) {
