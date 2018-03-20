@@ -37,5 +37,6 @@ public class Store {
     );
     showInventory(lcps);
 
+    boolean b1 = ClothingPair.<Shoe, Shoe>matches(new Shoe("RED", 10), new Shoe("RED", 10));
   }
 }
